@@ -1,8 +1,15 @@
 // @ts-nocheck
+import Banner from "../Banner/Banner";
+import Categorylist from "../CategoryList/Categorylist";
+import Featuredjobs from "../FeaturedJobs/Featuredjobs";
+
+// @ts-nocheck
 const Home = () => {
   return (
     <div>
-      <h2>This is Home</h2>
+      <Banner></Banner>
+      <Categorylist></Categorylist>
+      <Featuredjobs></Featuredjobs>
     </div>
   );
 };
