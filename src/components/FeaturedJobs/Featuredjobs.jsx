@@ -14,7 +14,7 @@ const Featuredjobs = () => {
   }, []);
 
   return (
-    <div className="mb-48">
+    <div className="mt-32 mb-48">
       <div>
         <h2 className="text-5xl text-center">Featured Jobs</h2>
         <p className="text-base font-medium text-center w-[#650px] mt-4">
